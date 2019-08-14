@@ -214,6 +214,10 @@ module.exports = function(
     cdpath = appPath;
   }
 
+  console.log(chalk.green('AUCTIONITY CRA'));
+  console.log('https://github.com/4X-SAS/create-react-app');
+  console.log();
+
   // Change displayed command to yarn instead of yarnpkg
   const displayedCommand = useYarn ? 'yarn' : 'npm';
 
